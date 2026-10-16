@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ROW 1 -->
+    <div class="row">
+        <div class="block" style="flex-grow: 0; flex-basis: auto;">
+            тут собачка живет
+            <i class="fas fa-dog"></i>
+        </div>
+
+        <div class="block" style="flex-grow: 2;">
+            <i class="fas fa-cat"></i>
+            <i class="fas fa-cat"></i>
+            <i class="fas fa-cat"></i>
+        </div>
+
+        <div class="block" style="flex-grow: 0; flex-basis: auto;">
+            <i class="fas fa-kiwi-bird"></i>
+            дом киви
+        </div>
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="row">
+        <div class="block" style="flex-grow: 0; flex-basis: auto;">
+            <i class="fas fa-crow"></i>
+            ворона
+        </div>
+
+        <div class="block" style="flex-grow: 3;">
+            <i class="fas fa-dog"></i>
+            <i class="fas fa-dog"></i>
+        </div>
+
+        <div class="block" style="flex-grow: 0; flex-basis: auto;">
+            <i class="fas fa-dove"></i>
+            голубь
+        </div>
+
+        <div class="block" style="justify-content: flex-start;">
+            <i class="fas fa-horse"></i>
+            лошадка
+        </div>
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="row">
+        <div class="block frog">
+            <i class="fas fa-frog"></i>
+        </div>
+
+        <div class="block fish">
+            <i class="fas fa-fish"></i>
+        </div>
+        <div class="block fish">
+            <i class="fas fa-fish"></i>
+        </div>
+        <div class="block fish">
+            <i class="fas fa-fish"></i>
+        </div>
+
+        <div class="block frog">
+            <i class="fas fa-frog"></i>
+        </div>
+    </div>
+
+    <!-- ROW 4 -->
+    <div class="row">
+        <div class="block tree"><i class="fas fa-tree"></i></div>
+        <div class="block tree"><i class="fas fa-tree"></i></div>
+        <div class="block tree"><i class="fas fa-tree"></i></div>
+        <div class="block tree"><i class="fas fa-tree"></i></div>
+
+        <div class="block" style="flex-grow: 1;">
+            <i class="fas fa-crow"></i>
+        </div>
+    </div>
+
+</body>
+
+<style>
+    .row {
+        display: flex;
+    }
+
+    .block {
+        border: 1px solid black;
+        margin: 0.25em;
+        padding: 0.5em;
+        flex-grow: 1;
+        flex-basis: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.3em;
+    }
+
+    .tree, .frog {
+        flex-grow: 0;
+        flex-basis: auto;
+    }
+
+    .tree {
+        background-color: #b6f36b;
+    }
+
+    .fish {
+        background-color: #7ff3e6;
+    }
+</style>
+
+</html>
