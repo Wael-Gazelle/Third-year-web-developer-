@@ -35,13 +35,11 @@
         <?php 
         $url = $_SERVER["REQUEST_URI"];
 
-        echo "You are on the page: $url, please be careful!<br>";
-
         if ($url == "/") {
             require "../views/main.php";
-        } elseif ($url == "/military") {
+        } elseif (preg_match('#^/military#', $url)) {
             require "../views/military.php";
-        } elseif ($url == "/public") {
+        } elseif (preg_match('#^/public#', $url)) {
             require "../views/public.php";
         } 
         ?>

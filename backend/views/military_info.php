@@ -1,0 +1,1 @@
+The MQ-9 Reaper is a military combat and surveillance drone. It can fly up to 50,000 feet for 27 to 35 hours and carry Hellfire missiles and laser-guided bombs.

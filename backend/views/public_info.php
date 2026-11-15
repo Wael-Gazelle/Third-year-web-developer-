@@ -1,0 +1,1 @@
+The DJI Mavic 4 Pro is a premium civilian drone for aerial photography. It features a 51-minute flight time, omnidirectional obstacle avoidance, and a triple-lens camera system capable of 6K video.

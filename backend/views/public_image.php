@@ -1,0 +1,1 @@
+<img style="width: 400px;" src="/images/dji%20mavic%204%20pro.jpg" alt="DJI Mavic 4 Pro Image">
